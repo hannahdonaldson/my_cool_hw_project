@@ -1,5 +1,5 @@
-import 'weightedLottery.js'
+import x from './weightedLottery.js'
 
-x = 'weightedLottery.js'
+y = x
 
-console.log(x);
+console.log(y);

@@ -16,5 +16,5 @@ winning: 1,
 losing: 100
 }
 
-
-console.log(weightedLottery(weights));
+const x = weightedLottery(weights);
+weightedLottery(x);
