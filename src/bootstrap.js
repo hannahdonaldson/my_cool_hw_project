@@ -1,2 +1,5 @@
 import 'weightedLottery.js'
-console.log('weightedLottery.js');
+
+x = 'weightedLottery.js'
+
+console.log(x);
