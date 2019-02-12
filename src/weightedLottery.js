@@ -1,4 +1,4 @@
-const weightedLottery = weights => {
+export const weightedLottery = weights => {
     // keep track of the weights 
     // ['green', 'yellow', 'yellow', 'red', 'red', 'red',]
     let containerArray = [];
@@ -11,7 +11,7 @@ const weightedLottery = weights => {
     return containerArray[(Math.random() * containerArray.length | 0)];
 }
 
-const weights = {
+export const weights = {
 winning: 1,
 losing: 100
 }
